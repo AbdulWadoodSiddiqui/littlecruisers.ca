@@ -37,6 +37,13 @@
         }
 
     }
+    @media only screen and (min-width: 768px) and (max-width: 4000px) {
+    .faq-image {
+        width: 100%; /* For screens larger than 767px but smaller than 2000px, set width to 50% */
+        height:100%
+    }
+}
+
 
     .download-button {
         background-color: #2e4a62;
@@ -80,7 +87,7 @@
 <section class="faq-area ptb-100">
     <div class="container">
         <div class="section-title">
-            <h2>Things You Might Want to Know</h2>
+            <h2 style="font-weight:bold;">Things You Might Want to Know</h2>
         </div>
         <div class="row">
             <div class="col-lg-6">
@@ -95,7 +102,7 @@
                                 a. What are your operational hours?
                             </a>
 
-                            <p class="accordion-content show">
+                            <p class="accordion-content show" style="margin-left:15px; color:#7e8185;">
                                 Our daycare operates from 6:30am to 6pm , Monday to Friday.
                         </li>
 
@@ -105,7 +112,7 @@
                                 b. Do you operate throughout the year?
                             </a>
 
-                            <p class="accordion-content">
+                            <p class="accordion-content" style="margin-left:15px; color:#7e8185;">
                                 Yes, we are open the whole year through excluding weekends and statutory holidays.
                             </p>
                         </li>
@@ -116,7 +123,7 @@
                                 c. What are your fees?
                             </a>
 
-                            <p class="accordion-content">
+                            <p class="accordion-content" style="margin-left:15px; color:#7e8185;">
                                 For detailed fee information, please visit our Rates & Subsidy page.
                             </p>
                         </li>
@@ -127,7 +134,7 @@
                                 d. Do you accept subsidy?
                             </a>
 
-                            <p class="accordion-content">
+                            <p class="accordion-content" style="margin-left:15px; color:#7e8185;">
                                 Yes, we accept subsidy. For detailed fee information, please visit our Rates &
                                 Subsidy page.
                             </p>
@@ -139,7 +146,7 @@
                                 e. Do you offer options for part-time or half-day care?
                             </a>
 
-                            <p class="accordion-content">
+                            <p class="accordion-content" style="margin-left:15px; color:#7e8185;">
                                 Yes, we offer flexible enrolment options to accommodate your specific needs,
                                 including part-time care.
                             </p>
@@ -150,7 +157,7 @@
                                 f. Are meals included in your center?
                             </a>
 
-                            <p class="accordion-content">
+                            <p class="accordion-content" style="margin-left:15px; color:#7e8185;">
                                 Nutritious meals are provided at our daycare center to ensure your child receives
                                 balanced and healthy nourishment according to the Canada food guide. Our menu
                                 accommodates halal, vegetarian, and any dietary restrictions.
@@ -162,7 +169,7 @@
                                 g. Is your facility free from nut products?
                             </a>
 
-                            <p class="accordion-content">
+                            <p class="accordion-content" style="margin-left:15px; color:#7e8185;">
                                 Yes, our facility is nut-free to create a safe environment for all children.
                             </p>
                         </li>
@@ -172,7 +179,7 @@
                                 h. Can you cater to my child's specific allergies?
                             </a>
 
-                            <p class="accordion-content">
+                            <p class="accordion-content" style="margin-left:15px; color:#7e8185;">
                                 Absolutely, we take allergies seriously. Please inform us of any allergies during the
                                 enrollment process, and we'll take the necessary steps to ensure your child's
                                 safety and well-being.

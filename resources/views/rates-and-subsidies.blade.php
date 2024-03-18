@@ -110,6 +110,40 @@
     font-weight: 500;
     color: #ffffff;
 }
+
+/* Adjusting buttons for mobile view */
+/* @media (max-width: 768px) {
+    .parents-cal-btn {
+        flex: 1;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .parents-cal-btn a {
+        display: block;
+        padding: 5px 0px;
+        font-size: 14px;
+    }
+} */
+
+/* Adjusting buttons for mobile view */
+@media (max-width: 768px) {
+    .mb-20.d-flex {
+        flex-wrap: wrap; /* Allow wrapping for buttons */
+    }
+
+    .parents-cal-btn {
+        flex: 1 0 100%; /* Each button takes full width */
+        margin: 5px;
+        text-align: center;
+    }
+
+    .parents-cal-btn a {
+        display: block;
+        padding: 5px 0px;
+        font-size: 14px; /* Adjust font size as needed */
+    }
+}
 </style>
 <div class="container">
     <div class="row text-center">
@@ -196,21 +230,21 @@
             </div>
         </div>
         <div class="mb-20 d-flex">
-        <div class="parents-cal-btn">
-            <a href="https://www.childcaresubsidy.gov.ab.ca/ccs/ccs_public.nsf/Estimator?OpenForm" target="_blank" class="default-btn">
-                <i class="fa fa-calculator" style="margin-right: 5px"></i> Calculate Subsidy
-            </a>
-        </div>
-        <div class="parents-cal-btn">
-            <a href="https://www.alberta.ca/child-care-subsidy#subsidy" target="_blank" class="default-btn" style="background-color: #75C137;">
-                <i class="fa fa-info" style="margin-right: 5px"></i> Learn More
-            </a>
-        </div>
-        <div class="parents-cal-btn">
-            <a href="https://applychildcaresubsidy.alberta.ca" target="_blank" class="default-btn" style="background-color: #2390FF;">
-                <i class="fa fa-chevron-right" style="margin-right: 5px"></i> Apply Now
-            </a>
-        </div>
+            <div class="parents-cal-btn">
+                <a href="https://www.childcaresubsidy.gov.ab.ca/ccs/ccs_public.nsf/Estimator?OpenForm" target="_blank" class="default-btn">
+                    <i class="fa fa-calculator" style="margin-right: 5px"></i> Calculate Subsidy
+                </a>
+            </div>
+            <div class="parents-cal-btn">
+                <a href="https://www.alberta.ca/child-care-subsidy#subsidy" target="_blank" class="default-btn" style="background-color: #75C137;">
+                    <i class="fa fa-info" style="margin-right: 5px"></i> Learn More
+                </a>
+            </div>
+            <div class="parents-cal-btn">
+                <a href="https://applychildcaresubsidy.alberta.ca" target="_blank" class="default-btn" style="background-color: #2390FF;">
+                    <i class="fa fa-chevron-right" style="margin-right: 5px"></i> Apply Now
+                </a>
+            </div>
         </div>
         
     </div>
@@ -221,13 +255,13 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>
+                            <th style="padding-bottom:3%;">
                                 Income
                             </th>
                             <th>
                                 Full-time rate
                             </th>
-                            <th>
+                            <th style="padding-bottom:3%;">
                                 Licensed preschool rate
                             </th>
                         </tr>
@@ -313,16 +347,16 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>
+                        <th style="padding-bottom:4%;">
                             Family income
                         </th>
-                        <th>
+                        <th style="padding-bottom:4%;">
                             Kindergarten facility-besed care(100 hours)
                         </th>
-                        <th>
+                        <th >
                             Kindergarten Day home and group family care(100 hours)
                         </th>
-                        <th>
+                        <th style="padding-bottom:4%;">
                             School age:Grades 1-6(50 hours)
                         </th>
                     </tr>

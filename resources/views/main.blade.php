@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Little Cruisers</title>
     <!-- favicons Icons -->
-    <meta property="og:title" content="Little Cruisers">
+    <meta property="og:title" content="Little Cruisers - DayCare School">
     <meta property="og:description" content="Little Cruisers - At Little Cruisers, our Infant Care program is tailored for babies aged 12 to 18 months. ">
     <meta property="og:url" content="https://littlecruisers.ca">
     <meta property="og:image" content="assets/images/favicon.svg">
@@ -69,7 +69,7 @@
                             <li>
                                 <a href="{{route('programs')}}">Programs</a>
                             </li>
-                            <li><a href="{{route('rates-and-subsidies')}}">Rates & Subsidy</a></li>
+                            <li><a href="{{route('rates-and-subsidy')}}">Rates & Subsidy</a></li>
                             <li>
                                 <a href="{{route('parents-guide')}}">Parents Guide</a>
                             </li>
@@ -111,36 +111,35 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-sm-6">
-                    <div class="single-footer-widget">
-                        <div class="logo" style="width:210px;">
-                            <a href="/">
-                                <img src="assets/images/logo.svg" class="black-logo" alt="image">
-                            </a>
-                        </div>
-
-                        <ul class="social">
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                        </ul>
-
+                           <div class="single-footer-widget">
+                                <div class="logo" style="width:210px;">
+                                    <a href="/">
+                                        <img src="assets/images/logo.svg" class="black-logo" alt="image">
+                                    </a>
+                                </div>
+                                
+                                <ul class="social">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                     </div>
                 </div>
 
@@ -162,7 +161,7 @@
                             <li>
                                 <i class="fas fa-map-marker-alt"></i>
                                 <span>Address</span>
-                                405 121 Main Street Airdrie AB T4B3M2
+                                405 121 Main Street Airdrie AB T4B0P8
                             </li>
                             <li>
                                 <i class="far fa-clock"></i>
@@ -189,10 +188,10 @@
                                 <a href="{{route('programs')}}">Programs</a>
                             </li>
                             <li>
-                                <a href="{{route('contact-us')}}" data-bs-toggle="modal" data-bs-target="#getInTouch">Contact Us</a>
+                                <a href="{{route('contact-us')}}">Contact Us</a>
                             </li>
                             <li>
-                                <a href="{{route('rates-and-subsidies')}}">Rates &amp; Subsidy</a>
+                                <a href="{{route('rates-and-subsidy')}}">Rates &amp; Subsidy</a>
                             </li>
                             <li>
                                 <a href="{{route('parents-guide')}}">Parents Guide</a>

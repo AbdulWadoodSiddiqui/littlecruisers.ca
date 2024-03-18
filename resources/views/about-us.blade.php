@@ -36,9 +36,9 @@
                     <p class="about-three__content__text">
                         where we blend learning with laughter to create memorable experiences for our children and families. Our goal is to cultivate a warm, inviting atmosphere that fosters a deep sense of belonging and provides a secure and stimulating environment for both play and education. We firmly believe that children learn best through play, whether it's energetic and lively or calm and immersive. Our approach focuses on self-directed play, which encourages children to explore their interests and curiosities, leading to natural learning and social development. By prioritizing play that is driven by internal motivation rather than external pressures, we aim to enrich children's early years and equip them with the skills and confidence needed for a successful life journey.
                     </p>
-                    <a href="{{route('about-us')}}" class="kidearn-btn">
+                    <!-- <a href="{{route('about-us')}}" class="kidearn-btn">
                         <span>Learn More</span>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -55,9 +55,9 @@
                     <p class="text-white" style="font: weight 900px;">
                         Our vision is to nurture a vibrant environment where every child's dreams take flight. Through playful adventures, caring connections, and a galaxy of shared experiences, we're committed to illuminating the path towards a brilliant tomorrow for your little stars. Come, journey with us as we create a universe of growth, exploration, and endless wonder.
                     </p>
-                    <a href="about.html" class="kidearn-btn">
+                    <!-- <a href="about.html" class="kidearn-btn">
                         <span>Learn More</span>
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="col-lg-6">
@@ -138,9 +138,9 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="{{route('about-us')}}" class="kidearn-btn">
+                    <!-- <a href="{{route('about-us')}}" class="kidearn-btn">
                         <span>Learn More</span>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -380,7 +380,7 @@
                     </div><!-- /.blog-card__image -->
                     <div class="blog-card__content">
 
-                        <h3 class="blog-card__title"><a href="#">Science Experiments</a></h3><!-- /.blog-card__title -->
+                        <h3 class="blog-card__title"><span>Science Experiments</span></h3><!-- /.blog-card__title -->
                         <p class="program-three__item__text">Discover science with Little Cruisers! Exciting hands-on experiments that inspire a lifelong love for learning.</p><!-- /.program-three__item__text -->
 
                     </div><!-- /.blog-card__content -->
@@ -393,7 +393,7 @@
                     </div><!-- /.blog-card__image -->
                     <div class="blog-card__content">
 
-                        <h3 class="blog-card__title"><a href="#">Storytelling</a></h3><!-- /.blog-card__title -->
+                        <h3 class="blog-card__title"><span>Storytelling</span></h3><!-- /.blog-card__title -->
                         <p class="program-three__item__text">Embark on enchanting adventures through captivating tales, where imagination knows no limits and a world of wonder awaits.</p><!-- /.program-three__item__text -->
 
                     </div><!-- /.blog-card__content -->
@@ -406,7 +406,7 @@
                     </div><!-- /.blog-card__image -->
                     <div class="blog-card__content">
 
-                        <h3 class="blog-card__title"><a href="#">Drama & Music</a></h3><!-- /.blog-card__title -->
+                        <h3 class="blog-card__title"><span>Drama & Music</span></h3><!-- /.blog-card__title -->
                         <p class="program-three__item__text">Spark your child's creativity and confidence with dynamic drama and music sessions at Little Cruisers, nurturing artistic expression and teamwork.</p><!-- /.program-three__item__text -->
 
                     </div><!-- /.blog-card__content -->
@@ -443,7 +443,7 @@
                     </div><!-- /.blog-card__image -->
                     <div class="blog-card__content">
 
-                        <h3 class="blog-card__title"><a href="#">Outside Play</a></h3><!-- /.blog-card__title -->
+                        <h3 class="blog-card__title"><span>Outside Play</span></h3><!-- /.blog-card__title -->
                         <p class="program-three__item__text">Encourage active exploration and boundless adventures outdoors with Little Cruisers, where fresh air and fun-filled learning await.</p><!-- /.program-three__item__text -->
 
                     </div><!-- /.blog-card__content -->
@@ -456,7 +456,7 @@
                     </div><!-- /.blog-card__image -->
                     <div class="blog-card__content">
 
-                        <h3 class="blog-card__title"><a href="#">Yoga</a></h3><!-- /.blog-card__title -->
+                        <h3 class="blog-card__title"><span>Yoga</span></h3><!-- /.blog-card__title -->
                         <p class="program-three__item__text">Promote physical and mental well-being with calming yoga sessions at Little Cruisers, designed to cultivate balance, strength, and inner peace.</p><!-- /.program-three__item__text -->
 
                     </div><!-- /.blog-card__content -->
@@ -470,7 +470,7 @@
                     </div><!-- /.blog-card__image -->
                     <div class="blog-card__content">
 
-                        <h3 class="blog-card__title"><a href="#">Enriching Experiences</a></h3><!-- /.blog-card__title -->
+                        <h3 class="blog-card__title"><span>Enriching Experiences</span></h3><!-- /.blog-card__title -->
                         <p class="program-three__item__text">Enrich your child's journey with unique experiences at Little Cruisers, from live animal encounters to mesmerizing magic shows by special guests.</p><!-- /.program-three__item__text -->
 
                     </div><!-- /.blog-card__content -->

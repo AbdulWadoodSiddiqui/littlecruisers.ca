@@ -127,11 +127,11 @@
 <!-- Header given by abdullah -->
 <section class="main-slider-two">
     <div class="main-slider-two__carousel kidearn-owl__carousel owl-carousel" data-owl-options='{
-		"loop": true,
+		"loop": false,
 		"animateOut": "fadeOut",
 		"animateIn": "fadeInRightBig",
 		"items": 1,
-		"autoplay": true,
+		"autoplay": false,
 		"autoplayTimeout": 7000,
 		"smartSpeed": 1000,
 		"nav": false,
@@ -141,7 +141,7 @@
 	    }'>
         <div class="item">
             <div class="main-slider-two__item">
-                <div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/slider-2-1.webp);"></div>
+                <div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/header-bg-one.webp);"></div>
                 <div class="main-slider-two__shape-one"><img src="assets/images/shapes/slider-2-shape-1.png" alt="kidearn" /></div>
                 <div class="main-slider-two__shape-two"><img src="assets/images/shapes/slider-2-shape-2.png" alt="kidearn" /></div>
                 <div class="main-slider-two__shape-three"><img src="assets/images/shapes/slider-2-shape-3.png" alt="kidearn" /></div>
@@ -155,15 +155,17 @@
                                 <h5 class="main-slider-two__sub-title">Kindergarten & Baby Care School</h5>
                                 
                                 <h2 class="main-slider-two__title">
-                                    <span class="main-slider-two__title__anim text-white">Welcome To,</span>
-                                    <span class="main-slider-two__title__anim text-white">The Little Cruisers</span>
+                                    <span class="main-slider-two__title__anim text-white">Where Tiny Explorers</span>
+                                    <span class="main-slider-two__title__anim text-white">Set Sail into Learning and Play!</span>
                                 </h2>
                                 <div class="main-slider-two__btn">
-                                    <a href="#" class="kidearn-btn">
-                                        <span>Learn More</span>
+                                    <a href="tel: +15872543747" class="kidearn-btn">
+                                    <i class="fas fa-phone-alt"></i>
+                                        <span>Call Now</span>
                                     </a>
-                                    <a href="#" class="kidearn-btn kidearn-btn--enroll">
-                                        <span>Enroll Now</span>
+                                    <a data-bs-toggle="modal" data-bs-target="#bookATourModel" class="kidearn-btn kidearn-btn--enroll">
+                                        <span>Book a Tour</span>
+                                        <i class="fas fa-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
@@ -175,7 +177,7 @@
                                 </svg>
                             </div>
                             <div class="main-slider-two__thumb">
-                                <img src="assets/images/backgrounds/slider-2-layer.png" alt="kidearn">
+                                <img src="assets/images/backgrounds/header-image.webp" alt="kidearn">
                             </div>
                         </div>
                     </div>
@@ -185,7 +187,65 @@
     </div>
 </section>
 
+<!-- Modal -->
+<div class="modal fade book-a-tour-modal" id="bookATourModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="border:none;background:transparent;">
+            <div class="modal-body">
+                <button type="button" class="btn-close book-a-tour-btn-close" onclick="closeBookATourModel()" style="position:absolute;right:15px;"></button>
+                <div class="container">
+                    <div class="row">
+                        <div class="quote-item" style="background:none;box-shadow:none;padding:0;">
+                            <div class="content">
+                                <h3 style="text-align:center;color:white;">Book A Tour</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="box-shadow: 0px 0px 10px 5px #202f84 !important;border-radius: 30px;">
+                        <div class="col-lg-7 book-a-tour-content-col" style="padding:0">
+                            <div class="quote-item" style="border-radius:30px 0 0 30px;padding:50px 0 55px 0;">
+                                <form method="POST"  style="width:75%;margin:auto;">
+                                    <div class="form-group">
+                                        <input type="text" name="bat_name" class="form-control" id="book_a_tour_form_name" placeholder="Your Name" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius:50px;" required>
+                                    </div>
 
+                                    <div class="form-group">
+                                        <input type="text" name="bat_number" class="form-control" id="book_a_tour_form_phone" placeholder="Phone Number" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius:50px;" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" name="bat_email" class="form-control" id="book_a_tour_form_email" placeholder="Email Address" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" name="bat_date" class="form-control" id="book_a_tour_date" placeholder="Visit Date" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" name="bat_time" class="form-control" id="book_a_tour_time" placeholder="Preferred Visit Time (e.g., 3:00 PM - 5:00 PM)" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;" required>
+                                    </div>
+
+                                    <div class="form-group" id="child_1">
+                                        <input type="text" name="bat_child_one_age" class="form-control" id="book_a_tour_form_child_age_1" placeholder="Child's Age" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;" required>
+                                    </div>
+                                    <button type="button" class="default-btn book-a-tour-submite-now-btn mb-3" id="add_a_child_input_btn" onclick="add_a_child_input()" style="display:inline;margin:auto;border-radius:50px;width:100%;display:table;margin-top: 35px">
+                                        Add A Child
+                                    </button>
+                                    <button type="submit" class="default-btn book-a-tour-submite-now-btn" style="display:inline;margin:auto;border-radius:50px;width:100%;display:table;border-color: #88c045;background-color: #88c045;">
+                                        Submit Now
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 book-a-tour-image-col" style="padding:0;border-radius:0 30px 30px 0;background-image: linear-gradient(#4097FF,#202F84 );">
+                            <img style="border-radius:0 30px 30px 0;" src="assets/images/get-in-touch-modal-image-two.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- ABout Area -->
 <section class="about-three mt-120">
     <div class="container">
@@ -266,10 +326,10 @@
                         <div class="program-three__item__icon">
                             <span class="icon-crawling-baby-silhouette"></span>
                         </div>
-                        <h3 class="program-three__item__title"><a href="{{route('programs')}}">Infant</a></h3>
+                        <h3 class="program-three__item__title"><span>Infant</span></h3>
                         <div class="program-three__item__age">(12 - 18 months)</div>
                         <p class="program-three__item__text">At Little Cruisers, our Infant Care program is tailored for babies aged 12 to 18 months. Our experienced caregivers provide a secure, loving environment and focus on nurturing early development through gentle interactions and sensory experiences.</p>
-                        <a class="program-three__item__rm" href="{{route('programs')}}"><span class="icon-right-arrow"></span></a>
+                        <a class="program-three__item__rm" href="{{route('contact-us')}}"><span class="icon-right-arrow"></span></a>
                     </div>
                 </div>
             </div>
@@ -282,10 +342,10 @@
                         <div class="program-three__item__icon">
                             <span class="icon-playtime"></span>
                         </div>
-                        <h3 class="program-three__item__title"><a href="{{route('programs')}}">Toddler</a></h3>
+                        <h3 class="program-three__item__title"><span>Toddler</span></h3>
                         <div class="program-three__item__age">(19 - 36 months)</div>
                         <p class="program-three__item__text">Little Cruisers welcomes toddlers aged 19 months to 3 years to embark on an exciting adventure! Our Toddler Care program encourages their natural curiosity and growing independence through age-appropriate activities, guided play, and learning opportunities.</p>
-                        <a class="program-three__item__rm" href="{{route('programs')}}"><span class="icon-right-arrow"></span></a>
+                        <a class="program-three__item__rm" href="{{route('contact-us')}}"><span class="icon-right-arrow"></span></a>
                     </div>
                 </div>
             </div>
@@ -298,10 +358,10 @@
                         <div class="program-three__item__icon">
                             <span class="icon-fun"></span>
                         </div>
-                        <h3 class="program-three__item__title"><a href="{{route('programs')}}">Preschool</a></h3>
+                        <h3 class="program-three__item__title"><span>Preschool</span></h3>
                         <div class="program-three__item__age">(3-4 years)</div>
                         <p class="program-three__item__text">Little Cruisers welcomes preschoolers aged 4 to 5 to a world of discovery! Our program sparks young minds with engaging activities and structured learning, preparing them for school while fostering a love for exploration and creativity.</p>
-                        <a class="program-three__item__rm" href="{{route('programs')}}"><span class="icon-right-arrow"></span></a>
+                        <a class="program-three__item__rm" href="{{route('contact-us')}}"><span class="icon-right-arrow"></span></a>
                     </div>
                 </div>
             </div>
@@ -314,10 +374,10 @@
                         <div class="program-three__item__icon">
                             <span class="icon-charity"></span>
                         </div>
-                        <h3 class="program-three__item__title"><a href="{{route('programs')}}">Kindergarten & OOSC</a></h3>
+                        <h3 class="program-three__item__title"><span>Kindergarten & OOSC</span></h3>
                         <div class="program-three__item__age">(5+ years)</div>
                         <p class="program-three__item__text">Little Cruisers supports school-age children aged 6+ with our Before & After School Care program, offering a blend of learning and relaxation. We provide engaging activities and a safe, enjoyable space that extends the learning and fun beyond the school day.</p>
-                        <a class="program-three__item__rm" href="{{route('programs')}}"><span class="icon-right-arrow"></span></a>
+                        <a class="program-three__item__rm" href="{{route('contact-us')}}"><span class="icon-right-arrow"></span></a>
                     </div>
                 </div>
             </div>
@@ -327,7 +387,7 @@
 </section>
 
 <!-- Our Core Value Area -->
-<section class="choose-area pt-100 pb-70">
+<section class="choose-area pt-100 pb-100">
     <div class="container">
         <div class="sec-title allign-left">
             <h3 class="sec-title__title">Our Core Values</h3>
@@ -468,7 +528,7 @@
                         <img src="assets/images/services/science-experiments.webp" alt="Science Experiments">
                     </div>
                     <div class="blog-card__content">
-                        <h3 class="blog-card__title"><a href="#">Science Experiments</a></h3>
+                        <h3 class="blog-card__title"><span>Science Experiments</span></h3>
                         <p class="program-three__item__text">Discover science with Little Cruisers! Exciting hands-on experiments that inspire a lifelong love for learning.</p>
                     </div>
                 </div>
@@ -479,7 +539,7 @@
                         <img src="assets/images/services/storytelling.webp" alt="10 Easy steps to more learn about play">
                     </div>
                     <div class="blog-card__content">
-                        <h3 class="blog-card__title"><a href="#">Storytelling</a></h3>
+                        <h3 class="blog-card__title"><span>Storytelling</span></h3>
                         <p class="program-three__item__text">Embark on enchanting adventures through captivating tales, where imagination knows no limits and a world of wonder awaits.</p>
                     </div>
                 </div>
@@ -490,7 +550,7 @@
                         <img src="assets/images/services/drama-and-music.webp" alt="10 Easy steps to more learn about play">
                     </div>
                     <div class="blog-card__content">
-                        <h3 class="blog-card__title"><a href="#">Drama & Music</a></h3>
+                        <h3 class="blog-card__title"><span>Drama & Music</span></h3>
                         <p class="program-three__item__text">Spark your child's creativity with dynamic drama and music sessions, nurturing artistic expression and teamwork.</p>
                     </div>
                 </div>
@@ -501,7 +561,7 @@
                         <img src="assets/images/services/outside-play.webp" alt="10 Easy steps to more learn about play">
                     </div>
                     <div class="blog-card__content">
-                        <h3 class="blog-card__title"><a href="#">Outside Play</a></h3>
+                        <h3 class="blog-card__title"><span>Outside Play</span></h3>
                         <p class="program-three__item__text">Encourage active exploration and boundless adventures outdoors with Little Cruisers, where fresh air and fun-filled learning await.</p>
                     </div>
                 </div>
@@ -512,7 +572,7 @@
                         <img src="assets/images/services/kids-yoga.webp" alt="10 Easy steps to more learn about play">
                     </div>
                     <div class="blog-card__content">
-                        <h3 class="blog-card__title"><a href="#">Yoga</a></h3>
+                        <h3 class="blog-card__title"><span>Yoga</span></h3>
                         <p class="program-three__item__text">Promote physical and mental well-being with calming yoga sessions at Little Cruisers, designed to cultivate balance, strength, and inner peace.</p>
                     </div>
                 </div>
@@ -523,7 +583,7 @@
                         <img src="assets/images/services/enriching-experiences.webp" alt="10 Easy steps to more learn about play">
                     </div>
                     <div class="blog-card__content">
-                        <h3 class="blog-card__title"><a href="#">Enriching Experiences</a></h3>
+                        <h3 class="blog-card__title"><span>Enriching Experiences</span></h3>
                         <p class="program-three__item__text">Enrich your child's journey with unique experiences at Little Cruisers, from live animal encounters to mesmerizing magic shows by special guests.</p>
                     </div>
                 </div>
@@ -665,7 +725,7 @@
         </div><!-- /.gallery-one__carousel -->
     </div><!-- /.container-fluid -->
 </section><!-- /.gallery-one -->
-
+<script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
 <script>
     function get_in_touch_add_a_child() {
         if ($('#get_in_touch_child_2').length === 0) {
@@ -736,6 +796,91 @@
     function remove_get_in_touch_child_3() {
         $('#get_in_touch_child_3').remove();
         $('#get_in_touch_add_a_child_btn').show();
+    }
+</script>
+
+<script>
+    let childCount = 1;
+
+    function add_a_child_input() {
+        if ($('#child_2').length === 0) {
+            $('#child_1').after(
+                `
+                <div class="form-group" id="child_2">
+                    <input type="text" class="form-control" name="bat_child_two_age" id="book_a_tour_form_child_age_2" placeholder="Child's Age" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;">
+                </div>
+                `
+            )
+        } else if ($('#child_2').length > 0 && $('#child_3').length === 0) {
+            $('#child_2').after(
+                `
+                <div class="form-group" id="child_3">
+                    <input type="text" class="form-control" name="bat_child_three_age" id="book_a_tour_form_child_age_3" placeholder="Child's Age" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;margin-bottom:30px;border-radius: 50px;">
+                </div>
+                `
+            )
+            $('#add_a_child_input_btn').hide();
+            /* $('#child_3').after(
+                `
+                <div class="form-group" id="remove_child_btn">
+                    <button type="button" class="default-btn book-a-tour-submite-now-btn mb-3" onclick="remove_all_children()" style="display:inline;margin:auto;border-radius:30px;width:100%;display:table">Remove All Children</button>
+                </div>
+                `
+            )
+             */
+        }
+    }
+
+    function remove_all_children() {
+        $('#child_2').remove();
+        $('#child_3').remove();
+        $('#remove_child_btn').remove();
+        $('#add_a_child_input_btn').show();
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+
+        $(document).mouseup(function(e) {
+            var container = $("#bookATourModel");
+
+            if (container.hasClass('show')) {
+                if (container.is(e.target)) {
+                    if (!checkBookATourFieldsEmpty()) {
+                        $('#confirmationModal').modal('show');
+                    }
+                }
+            }
+        });
+    });
+
+    function checkBookATourFieldsEmpty() {
+        if ($('#book_a_tour_form_name').val() !== '' || $('#book_a_tour_form_phone').val() !== '' || $(
+                '#book_a_tour_form_email').val() !== '' || $('#book_a_tour_form_child_age_1').val() !== '' || ($(
+                '#book_a_tour_form_child_age_2').length > 0 && $('#book_a_tour_form_child_age_2').val() !== '') || ($(
+                '#book_a_tour_form_child_age_3').length > 0 && $('#book_a_tour_form_child_age_3').val() !== '')) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    function closeBookATourModel() {
+        $('#bookATourModel').modal('hide');
+        if (!checkBookATourFieldsEmpty()) {
+            $('#confirmationModal').modal('show');
+        }
+    }
+
+    function confirmationModelCancelBtn() {
+        $('#confirmationModal').modal('hide');
+        $('#bookATourModel').modal('show');
+    }
+
+    function confirmationModelContinueBtn() {
+        $('#bookATourModel').trigger('reset');
+        $('#confirmationModal').modal('hide');
     }
 </script>
 

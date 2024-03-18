@@ -1,6 +1,6 @@
 <div class="row">
-            <div class="col-xl-6 col-sm-6 wow fadeInLeft" data-wow-delay="300ms">
-              <img src="assets/images/get-in-touch/get-in-touch.webp" alt="kidearn" style="max-width: 100%; height: auto;"/>
+            <div class="col-xl-6 col-sm-6 wow fadeInLeft get-in-touch-image" data-wow-delay="300ms">
+              <img src="assets/images/get-in-touch/get-in-touch.webp" alt="kidearn" style=""/>
             </div>
 
     <div class="col-lg-6">
@@ -26,26 +26,25 @@
                     <div class="form-group">
                         <input type="tel" name="git_number" class="form-control" placeholder="Phone Number" required>
                     </div>
-                    <div id="get_in_touch_child_1">
-                        <div class="inpit-main" style="display: flex; justify-content:space-around; flex-wrap: wrap">
-                            <div class="col-md-6">
+                    <!-- <div id="get_in_touch_child_1"> -->
+                    <!-- <div class="inpit-main" style="dispay:flex flex-wrap:wrap;"> -->
+                    <div class="col-md-6 col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" name="git_child_one_first_name" style="width: 210px" class="form-control child-name-input" placeholder="Child's First Name" required>
+                                    <input type="text" name="git_child_one_first_name" class="form-control child-name-input" placeholder="Child's First Name" required>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-lg-6">
                                 <div class="form-group">
                                     <input type="text" name="git_child_one_last_name"  class="form-control child-name-input" placeholder="Child's Last Name" required>
                                 </div>
                             </div>
-                        </div>
+                        <!-- </div> -->
                         <div class="col-md-12">
                             <div class="form-group">
                                 <input type="text" id="dob" name="git_child_one_dob" class="form-control" onclick="(this.type='date')" placeholder="Date of Birth" required>
                             </div>
-
                         </div>
-                    </div>
+                    <!-- </div> -->
                     <div class="col-12">
                         <button type="button" class="default-btn book-a-tour-submite-now-btn mb-3" id="get_in_touch_add_a_child_btn" onclick="get_in_touch_add_a_child()" style="display:inline;  border-radius:10px;width:210px;background-color:#88c045">Add A Child</button>
                     </div>

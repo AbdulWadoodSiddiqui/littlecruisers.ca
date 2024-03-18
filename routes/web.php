@@ -33,9 +33,9 @@ Route::get('parents-guide', function () {
     return view('parents-guide');
 })->name('parents-guide');
 
-Route::get('rates-and-subsidies', function () {
+Route::get('rates-and-subsidy', function () {
     return view('rates-and-subsidies');
-})->name('rates-and-subsidies');
+})->name('rates-and-subsidy');
 
 Route::get('careers', function () {
     return view('careers');
