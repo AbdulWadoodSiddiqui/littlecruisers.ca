@@ -25,7 +25,7 @@
 
     <div class="col-lg-12">
         <div class="quote-item">
-            <form method="POST">
+            <form id="contact-us-page-form">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -73,7 +73,7 @@
 
 
                     <div class="col-12 get-in-touch-submit-button-col">
-                        <button id="get-in-touch-submit-button" type="submit" class="default-btn" value="Submit Nested Form 2">
+                        <button  class="default-btn">
                             Submit Now
                         </button>
                     </div>
@@ -243,6 +243,15 @@
         $('#get_in_touch_child_3').remove();
         $('#get_in_touch_add_a_child_btn').show();
     }
+</script>
+
+<script>
+    $( '#contact-us-page-form' ).on( 'submit', function(e) {
+        e.preventDefault();
+        console.log('not submit')
+      return;
+
+    });
 </script>
 
 

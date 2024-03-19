@@ -8,7 +8,7 @@
             <div class="content">
                 <h3>Get in Touch</h3>
             </div>
-            <form method="POST">
+            <form id="get-in-touch-home-page-form">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -53,56 +53,24 @@
                         <textarea class="form-control" name="git_additional_comments" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
 
-
-
                     <div class="col-12 get-in-touch-submit-button-col">
-                        <button id="get-in-touch-submit-button" type="submit" class="default-btn" value="Submit Nested Form 2">
+                        <button class="default-btn">
                             Submit Now
                         </button>
                     </div>
-
                 </div>
-
             </form>
         </div>
     </div>
-          <!-- <div class="col-lg-6 wow fadeInRight" data-wow-delay="200ms">
-                <div class="sec-title text-left">
-
-                    <h6 class="sec-title__tagline">Contact with Us</h6>
-
-                    <h3 class="sec-title__title">Feel free to write us <br> anytime</h3>
-                </div>
-                <form class="contact-one__form contact-form-validated form-one" action="https://bracketweb.com/kidearn-html/inc/sendemail.php">
-                    <div class="form-one__group">
-                        <div class="form-one__control ">
-                             <input type="text" name="git_parent_first_name" class="form-control" placeholder="Parent's First Name" required>
-                        </div>
-                        <div class="form-one__control ">
-                             <input type="text" name="git_parent_last_name" class="form-control" placeholder="Parent's Last Name" required>
-                        </div>
-                        <div class="form-one__control ">
-                             <input type="email" name="git_email" class="form-control" placeholder="Email Address" required>
-                        </div>
-                        <div class="form-one__control ">
-                             <input type="tel" name="git_number" class="form-control" placeholder="Phone Number" required>
-                        </div>
-                        <div class="form-one__control ">
-                            <input type="text" name="git_child_one_first_name" class="form-control child-name-input" placeholder="Child's First Name" required>
-                        </div>
-                        <div class="form-one__control ">
-                            <input type="text" name="git_child_one_last_name" class="form-control child-name-input" placeholder="Child's Last Name" required>
-                        </div>
-                        <div class="form-one__control ">
-                            <input type="text" id="dob" name="git_child_one_dob" class="form-control form-one__control--dob" onclick="(this.type='date')" placeholder="Date of Birth" required style="width: 100%;">
-                        </div>
-                        <div class="form-one__control form-one__control--full">
-                            <textarea name="message" placeholder="Additional Comments"></textarea>
-                        </div>
-                        <div class="form-one__control form-one__control--full">
-                            <button type="submit" class="kidearn-btn kidearn-btn--xl"><span>Get In Touch</span></button>
-                        </div>
-                    </div>
-                </form>
-            </div> -->
 </div>
+
+
+<script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+<script>
+    $( '#get-in-touch-home-page-form' ).on( 'submit', function(e) {
+        e.preventDefault();
+        console.log('not submit')
+      return;
+
+    });
+</script>

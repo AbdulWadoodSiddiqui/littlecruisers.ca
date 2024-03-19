@@ -1,130 +1,7 @@
 @section('content')
 @extends('main')
 
-<!-- Header Laptop section -->
-<!-- <section class="main-slider-two d-none d-lg-block">
-    <div class="main-slider-two__carousel kidearn-owl__carousel owl-carousel" data-owl-options='{
-		"loop": true,
-		"animateOut": "fadeOut",
-		"animateIn": "fadeInRightBig",
-		"items": 1,
-		"autoplay": true,
-		"autoplayTimeout": 7000,
-		"smartSpeed": 1000,
-		"nav": false,
-        "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
-		"dots": false, 
-		"margin": 0
-	    }'>
-        <div class="item">
-            <div class="main-slider-two__item">
-                <div class="main-slider-two__bg" > 
-                <div class="image1"></div>
-                <div class="image2"></div>
-                <div class="image3"></div>
-                <div class="image4"></div>
-                </div>
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="main-slider-two__content">
-                                <h5 class="main-slider-two__sub-title">Kindergarten & Baby Care School</h5>
-                                
-                                <h2 class="main-slider-two__title">
-                                    <span class="main-slider-two__title__anim text-black">Where Tiny Explorers</span>
-                                    <span class="main-slider-two__title__anim text-black">Set Sail into Learning and Play!</span>
-                                </h2>
-                                <div class="main-slider-two__btn">
-                                    <a href="tel: +15872543747" class="kidearn-btn">
-                                    <i class="fas fa-phone-alt"></i>
-                                        <span>Call Now</span>
-                                    </a>
-                                    <a href="{{route('contact-us')}}" class="kidearn-btn kidearn-btn--enroll">
-                                        <span>Book a Tour</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="main-slider-two__bg-shape">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 527">
-                                    <path d="M411.036 177.238C408.943 185.837 407.401 194.712 406.52 203.751C402.334 247.352 406.52 291.89 396.385 334.499C386.25 377.108 356.508 419.441 313.27 426.055C266.342 433.221 225.143 397.502 181.575 378.706C124.419 354.048 25.2223 366.83 1.01068 499.885C-5.37857 534.997 19.8596 595.003 39.1375 624.989C111.622 737.767 133.876 662.58 228.833 746.144C268.931 781.476 307.596 822.983 360.528 838.472C449.151 864.324 518.057 793.217 589.991 755.128C657.574 719.355 735.897 719.575 810.365 718.087C849.527 717.315 888.028 712.465 926.914 710.425C958.695 708.772 989.981 715.607 1010.97 683.912C1025.4 662.139 1026.66 633.752 1020.5 608.396C1014.33 583.04 1001.49 559.889 989.154 536.904C948.671 461.498 911.271 382.344 901.247 297.292C897.281 263.503 897.667 229.162 891.057 195.814C876.461 122.282 825.898 56.7984 758.535 24.0564C691.173 -8.68552 608.497 -7.96895 541.74 25.9857C479.996 57.4048 427.45 110.156 411.036 177.238Z" />
-                                </svg>
-                            </div>
-                            <div class="main-slider-two__thumb">
-                                <img src="assets/images/backgrounds/header-image.webp" alt="kidearn">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<!-- Header Mobile section -->
-<!-- <section class="main-slider-two d-lg-none">
-	<div class="main-slider-two__carousel kidearn-owl__carousel owl-carousel" data-owl-options='{
-		"loop": true,
-		"animateOut": "fadeOut",
-		"animateIn": "fadeInRightBig",
-		"items": 1,
-		"autoplay": true,
-		"autoplayTimeout": 7000,
-		"smartSpeed": 1000,
-		"nav": false,
-        "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
-		"dots": true,
-		"margin": 0
-	    }'>
-		<div class="item">
-			<div class="main-slider-two__item">
-				<div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/slider-2-1.jpg);"></div>
-                <div class="main-slider-two__shape-one"><img src="assets/images/shapes/slider-2-shape-1.png" alt="kidearn" /></div>
-                <div class="main-slider-two__shape-two"><img src="assets/images/shapes/slider-2-shape-2.png" alt="kidearn" /></div>
-                <div class="main-slider-two__shape-three"><img src="assets/images/shapes/slider-2-shape-3.png" alt="kidearn" /></div>
-                <div class="main-slider-two__shape-four"><img src="assets/images/shapes/slider-2-shape-4.png" alt="kidearn" /></div>
-                <div class="main-slider-two__shape-five"><img src="assets/images/shapes/slider-2-shape-5.png" alt="kidearn" /></div>
-                <div class="main-slider-two__shape-six"><img src="assets/images/shapes/slider-2-shape-6.png" alt="kidearn" /></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-7">
-							<div class="main-slider-two__content">
-								<h5 class="main-slider-two__sub-title">Kindergarten & Baby Care School</h5>
-								
-								<h2 class="main-slider-two__title">
-									<span class="main-slider-two__title__anim">Ultimate child</span>
-									<span class="main-slider-two__title__anim">education</span>
-									<span class="main-slider-two__title__anim">center</span>
-								</h2>
-								<div class="main-slider-two__btn">
-									<a href="about.html" class="kidearn-btn">
-										<span>Learn More</span>
-									</a>
-									<a href="events-grid.html" class="kidearn-btn kidearn-btn--enroll">
-										<span>Enroll Now</span>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">
-							<div class="main-slider-two__bg-shape">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 627">
-									<path d="M411.036 177.238C408.943 185.837 407.401 194.712 406.52 203.751C402.334 247.352 406.52 291.89 396.385 334.499C386.25 377.108 356.508 419.441 313.27 426.055C266.342 433.221 225.143 397.502 181.575 378.706C124.419 354.048 25.2223 366.83 1.01068 499.885C-5.37857 534.997 19.8596 595.003 39.1375 624.989C111.622 737.767 133.876 662.58 228.833 746.144C268.931 781.476 307.596 822.983 360.528 838.472C449.151 864.324 518.057 793.217 589.991 755.128C657.574 719.355 735.897 719.575 810.365 718.087C849.527 717.315 888.028 712.465 926.914 710.425C958.695 708.772 989.981 715.607 1010.97 683.912C1025.4 662.139 1026.66 633.752 1020.5 608.396C1014.33 583.04 1001.49 559.889 989.154 536.904C948.671 461.498 911.271 382.344 901.247 297.292C897.281 263.503 897.667 229.162 891.057 195.814C876.461 122.282 825.898 56.7984 758.535 24.0564C691.173 -8.68552 608.497 -7.96895 541.74 25.9857C479.996 57.4048 427.45 110.156 411.036 177.238Z"/>
-								</svg>
-							</div>
-							<div class="main-slider-two__thumb">
-								<img src="assets/images/backgrounds/slider-2-layer.png" alt="kidearn">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
-<!-- Header given by abdullah -->
+<!-- Header -->
 <section class="main-slider-two">
     <div class="main-slider-two__carousel kidearn-owl__carousel owl-carousel" data-owl-options='{
 		"loop": false,
@@ -204,7 +81,7 @@
                     <div class="row" style="box-shadow: 0px 0px 10px 5px #202f84 !important;border-radius: 30px;">
                         <div class="col-lg-7 book-a-tour-content-col" style="padding:0">
                             <div class="quote-item" style="border-radius:30px 0 0 30px;padding:50px 0 55px 0;">
-                                <form method="POST"  style="width:75%;margin:auto;">
+                                <form  id="book-a-tour-form" style="width:75%;margin:auto;">
                                     <div class="form-group">
                                         <input type="text" name="bat_name" class="form-control" id="book_a_tour_form_name" placeholder="Your Name" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius:50px;" required>
                                     </div>
@@ -882,6 +759,15 @@
         $('#bookATourModel').trigger('reset');
         $('#confirmationModal').modal('hide');
     }
+</script>
+
+<script>
+    $( '#book-a-tour-form' ).on( 'submit', function(e) {
+        e.preventDefault();
+        console.log('not submit')
+      return;
+
+    });
 </script>
 
 @endsection
