@@ -11833,7 +11833,7 @@ body.megamenu-popup-active .mobile-nav__content {
     }
 }
 .main-slider-two__bg-shape svg {
-    fill: var(--kidearn-secondary, #ffaa23);
+    fill: #f3a21f;
     width: 820px;
 }
 @media (max-width: 1199px) {

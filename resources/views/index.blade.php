@@ -328,7 +328,7 @@
                         </div>
                         <h3 class="program-three__item__title"><span>Infant</span></h3>
                         <div class="program-three__item__age">(12 - 18 months)</div>
-                        <p class="program-three__item__text">At Little Cruisers, our Infant Care program is tailored for babies aged 12 to 18 months. Our experienced caregivers provide a secure, loving environment and focus on nurturing early development through gentle interactions and sensory experiences.</p>
+                        <p class="program-three__item__text">At Little Cruisers, our Infant care program is tailored for babies aged 12 to 18 months. Our experienced caregivers provide a secure, loving environment and focus on nurturing early development through gentle interactions and sensory experiences.</p>
                         <a class="program-three__item__rm" href="{{route('contact-us')}}"><span class="icon-right-arrow"></span></a>
                     </div>
                 </div>
@@ -407,7 +407,7 @@
                             <div class="content">
                                 <h3 class="text-start">Nurturing Care</h3>
                                 <p class="text-start">Your child's happiness and safety are our top priorities. Our
-                                    loving educators create a cozy space where kids ca n learn and explore while feeling
+                                    loving educators create a cozy space where kids can learn and explore while feeling
                                     cherished and secure.</p>
                             </div>
                         </div>

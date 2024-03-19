@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Little Cruisers</title>
     <!-- favicons Icons -->
-    <meta property="og:title" content="Little Cruisers - DayCare School">
+    <meta property="og:title" content="Little Cruisers - DayCare Center">
     <meta property="og:description" content="Little Cruisers - At Little Cruisers, our Infant Care program is tailored for babies aged 12 to 18 months. ">
     <meta property="og:url" content="https://littlecruisers.ca">
     <meta property="og:image" content="assets/images/favicon.svg">

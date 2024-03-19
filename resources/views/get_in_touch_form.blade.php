@@ -28,7 +28,7 @@
                     </div>
                     <!-- <div id="get_in_touch_child_1"> -->
                     <!-- <div class="inpit-main" style="dispay:flex flex-wrap:wrap;"> -->
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 col-lg-6 inpit-main" id="get_in_touch_child_1">
                                 <div class="form-group">
                                     <input type="text" name="git_child_one_first_name" class="form-control child-name-input" placeholder="Child's First Name" required>
                                 </div>

@@ -45,7 +45,7 @@
                     </div>
                     <!-- <div id="get_in_touch_child_1"> -->
                     <!-- <div class="inpit-main" style="dispay:flex flex-wrap:wrap;"> -->
-                            <div class="col-md-6 col-lg-6">
+                            <div class="col-md-6 col-lg-6 inpit-main" id="get_in_touch_child_1">
                                 <div class="form-group">
                                     <input type="text" name="git_child_one_first_name" class="form-control child-name-input" placeholder="Child's First Name" required>
                                 </div>
@@ -171,7 +171,79 @@
         <!-- /.google-map -->
     </div><!-- /.container-fluid -->
 </section><!-- /.contact-map -->
+<script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+<script>
+    function get_in_touch_add_a_child() {
+        if ($('#get_in_touch_child_2').length === 0) {
+            $('#get_in_touch_child_1').after(
+                `
+                    <div id="get_in_touch_child_2">
+                        <div class="inpit-main" style="display: flex; justify-content:space-around; flex-wrap: wrap">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="git_child_two_first_name" style="width: 210px" class="form-control child-name-input" placeholder="Child's First Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="git_child_two_last_name"  class="form-control child-name-input" placeholder="Child's Last Name" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                             <div class="form-group">
+                                <input type="text" id="dob" name="git_child_two_dob" class="form-control" onclick="(this.type='date')"
+                                    placeholder="Date of Birth" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6  col-12" id="get-in-touch-child_2">
+                            <button type="button" class="default-btn book-a-tour-submite-now-btn mb-3" onclick="remove_get_in_touch_child_2()" style="display:inline;margin:auto;border-radius:10px;width:100%;">Remove Child</button>
+                        </div>
+                    </div>
+                    `
+            )
+        } else if ($('#get_in_touch_child_2').length > 0 && $('#get_in_touch_child_3').length === 0) {
+            $('#get_in_touch_child_2').after(
+                `
+                    <div id="get_in_touch_child_3">
+                        <div class="inpit-main" style="display: flex; justify-content:space-around; flex-wrap: wrap">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="git_child_three_first_name" style="width: 210px" class="form-control child-name-input" placeholder="Child's First Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="git_child_three_last_name"  class="form-control child-name-input" placeholder="Child's Last Name" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                             <div class="form-group">
+                                <input type="text" name="git_child_three_dob" id="dob" class="form-control" onclick="(this.type='date')"
+                                    placeholder="Date of Birth" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6  col-12" id="get-in-touch-child_2">
+                            <button type="button" class="default-btn book-a-tour-submite-now-btn mb-3" onclick="remove_get_in_touch_child_3()" style="display:inline;margin:auto;border-radius:10px;width:100%;">Remove Child</button>
+                        </div>
+                    </div>
+                    `
+            )
+            $('#get_in_touch_add_a_child_btn').hide();
+        }
+    }
 
+    function remove_get_in_touch_child_2() {
+        $('#get_in_touch_child_2').remove();
+        $('#get_in_touch_add_a_child_btn').show();
+    }
+
+    function remove_get_in_touch_child_3() {
+        $('#get_in_touch_child_3').remove();
+        $('#get_in_touch_add_a_child_btn').show();
+    }
+</script>
 
 
 @endsection
