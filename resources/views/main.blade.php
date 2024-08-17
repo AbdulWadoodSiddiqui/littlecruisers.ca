@@ -284,6 +284,80 @@
         </svg>
     </a>
 
+    <div class="modal fade" id="getInTouch" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background-color:rgba(0,0,0,0.3);backdrop-filter:blur(1px);">
+                <div class="modal-body">
+                    <button type="button" class="btn-close book-a-tour-btn-close" data-bs-dismiss="modal" aria-label="Close" style="position:absolute;right:15px;"></button>
+                    <div class="container" style="width:75%;">
+                        <div class="row">
+                            <div class="quote-item" style="background:none;box-shadow:none;padding:0;">
+                                <div class="content">
+                                    <h3 style="text-align:center;color:white;">Get In Touch</h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Start Quote Area -->
+                        <section class="quote-area pb-100 ">
+                            <div class="container">
+                                @include('get_in_touch_modal_form')
+                            </div>
+                        </section>
+                        <!-- End Quote Area -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="border:none;background:transparent;">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row" style="box-shadow: 0px 0px 10px 5px #3b8932 !important;border-radius: 30px;">
+                            <div class="col-lg-12 book-a-tour-content-col" style="padding:0">
+                                <div class="quote-item" style="border-radius:30px 30px 30px 30px;padding:50px 0 50px 0;">
+                                    <div class="container-fluid text-center">
+                                        @if(session()->has('success'))
+                                            <h5>{{ session()->get('success') }}</h5>
+                                        @endif
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error Modal -->
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="border:none;background:transparent;">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row" style="box-shadow: 0px 0px 10px 5px #8f2929 !important;border-radius: 30px;">
+                            <div class="col-lg-12 book-a-tour-content-col" style="padding:0">
+                                <div class="quote-item" style="border-radius:30px 30px 30px 30px;padding:50px 0 50px 0;">
+                                    <div class="container-fluid text-center">
+                                        @if(session()->has('error'))
+                                            <h5>{{ session()->get('error') }}</h5>
+                                        @endif
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>

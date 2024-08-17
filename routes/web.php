@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\BookTourController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -44,3 +45,7 @@ Route::get('careers', function () {
 Route::get('gallery', function () {
     return view('gallery');
 })->name('gallery');
+
+Route::post('book-tour-email', [BookTourController::class, 'bookTourEmail'])->name('book_a_tour_email');
+Route::post('get-in-touch-email', [BookTourController::class, 'getInTouchEmail'])->name('get_in_touch_email');
+Route::post('career-email', [BookTourController::class, 'careerEmail'])->name('career_email');

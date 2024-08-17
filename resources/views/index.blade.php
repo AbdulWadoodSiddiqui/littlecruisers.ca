@@ -81,36 +81,58 @@
                     <div class="row" style="box-shadow: 0px 0px 10px 5px #202f84 !important;border-radius: 30px;">
                         <div class="col-lg-7 book-a-tour-content-col" style="padding:0">
                             <div class="quote-item" style="border-radius:30px 0 0 30px;padding:50px 0 55px 0;">
-                                <form  id="book-a-tour-form" style="width:75%;margin:auto;">
-                                    <div class="form-group">
-                                        <input type="text" name="bat_name" class="form-control" id="book_a_tour_form_name" placeholder="Your Name" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius:50px;" required>
-                                    </div>
+                                <form method="POST" action="{{ route('get_in_touch_email') }}">
+                                    @csrf
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" name="git_parent_first_name" class="form-control" placeholder="Parent's First Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" name="git_parent_last_name" class="form-control" placeholder="Parent's Last Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="git_email" class="form-control" placeholder="Email Address" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="tel" name="git_number" class="form-control" placeholder="Phone Number" required>
+                                        </div>
+                                        <div id="get_in_touch_child_1">
+                                            <div class="inpit-main" style="display: flex; justify-content:space-around; flex-wrap: wrap">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="git_child_one_first_name" style="width: 210px" class="form-control child-name-input" placeholder="Child's First Name" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="git_child_one_last_name" style="width: 215px" class="form-control child-name-input" placeholder="Child's Last Name" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" id="dob" name="git_child_one_dob" class="form-control" onclick="(this.type='date')" placeholder="Date of Birth" required>
+                                                </div>
 
-                                    <div class="form-group">
-                                        <input type="text" name="bat_number" class="form-control" id="book_a_tour_form_phone" placeholder="Phone Number" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius:50px;" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="button" class="default-btn book-a-tour-submite-now-btn mb-3" id="get_in_touch_add_a_child_btn" onclick="get_in_touch_add_a_child()" style="display:inline;  border-radius:10px;width:210px;background-color:#f69110">Add A Child</button>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Additional Comments</label>
+                                            <textarea class="form-control" name="git_additional_comments" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                        <div class="col-12 get-in-touch-submit-button-col">
+                                            <button id="get-in-touch-submit-button" type="submit" class="default-btn" value="Submit Nested Form 2">
+                                                Submit Now
+                                            </button>
+                                        </div>
                                     </div>
-
-                                    <div class="form-group">
-                                        <input type="text" name="bat_email" class="form-control" id="book_a_tour_form_email" placeholder="Email Address" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input type="text" name="bat_date" class="form-control" id="book_a_tour_date" placeholder="Visit Date" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input type="text" name="bat_time" class="form-control" id="book_a_tour_time" placeholder="Preferred Visit Time (e.g., 3:00 PM - 5:00 PM)" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;" required>
-                                    </div>
-
-                                    <div class="form-group" id="child_1">
-                                        <input type="text" name="bat_child_one_age" class="form-control" id="book_a_tour_form_child_age_1" placeholder="Child's Age" style="height:50px;box-shadow: 0px 0px 6px 2px #e0e0e0 !important;border-radius: 50px;" required>
-                                    </div>
-                                    <button type="button" class="default-btn book-a-tour-submite-now-btn mb-3" id="add_a_child_input_btn" onclick="add_a_child_input()" style="display:inline;margin:auto;border-radius:50px;width:100%;display:table;margin-top: 35px">
-                                        Add A Child
-                                    </button>
-                                    <button type="submit" class="default-btn book-a-tour-submite-now-btn" style="display:inline;margin:auto;border-radius:50px;width:100%;display:table;border-color: #88c045;background-color: #88c045;">
-                                        Submit Now
-                                    </button>
                                 </form>
                             </div>
                         </div>

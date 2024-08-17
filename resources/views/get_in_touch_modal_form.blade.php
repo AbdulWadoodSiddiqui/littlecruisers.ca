@@ -1,13 +1,14 @@
 <div class="row">
-            <div class="col-xl-6 col-sm-6 wow fadeInLeft get-in-touch-image" data-wow-delay="300ms">
-              <img src="assets/images/get-in-touch/get-in-touch.webp" alt="kidearn" style=""/>
-            </div>
+    <div class="col-lg-6">
+        <div class="quote-image"></div>
+    </div>
 
     <div class="col-lg-6">
         <div class="quote-item">
             <div class="content">
                 <h3>Get in Touch</h3>
             </div>
+
             <form method="POST" action="{{ route('get_in_touch_email') }}">
                  @csrf
                 <div class="row">
@@ -44,7 +45,6 @@
                             <div class="form-group">
                                 <input type="text" id="dob" name="git_child_one_dob" class="form-control" onclick="(this.type='date')" placeholder="Date of Birth" required>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-12">
@@ -64,13 +64,3 @@
         </div>
     </div>
 </div>
-
-<script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-<script>
-    $( '#get-in-touch-home-page-form' ).on( 'submit', function(e) {
-        e.preventDefault();
-        console.log('not submit')
-      return;
-
-    });
-</script>
