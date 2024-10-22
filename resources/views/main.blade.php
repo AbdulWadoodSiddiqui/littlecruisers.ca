@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&amp;family=Fredoka:wght@700&amp;family=Schoolbell&amp;display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
@@ -91,7 +91,7 @@
                         <a class="main-header__call" href="tel: +15872543747">
                             <i class=" icon-call main-header__call__icon"></i>
                             <span class=" main-header__call__content">
-                                <span class="main-header__call__text">Call to Questions</span><!-- /.main-header__call__text -->
+                                <span class="main-header__call__text">Get In Touch</span><!-- /.main-header__call__text -->
                                 <span class="main-header__call__number">+1 587-254-3747</span>
                                 <!-- /.main-header__call__number -->
                             </span><!-- /.main-header__call__content -->

@@ -29,8 +29,7 @@
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="main-slider-two__content">
-                                <h5 class="main-slider-two__sub-title">Kindergarten & Baby Care School</h5>
-                                
+                                <!-- <h5 class="main-slider-two__sub-title">Kindergarten & Baby Care School</h5> -->
                                 <h2 class="main-slider-two__title">
                                     <span class="main-slider-two__title__anim text-white">Where Tiny Explorers</span>
                                     <span class="main-slider-two__title__anim text-white">Set Sail into Learning and Play!</span>
@@ -180,7 +179,7 @@
 
                         <h6 class="sec-title__tagline">About Us</h6>
 
-                        <h3 class="sec-title__title">Welcome to Little Cruisers Daycare,</h3>
+                        <h3 class="sec-title__title">Welcome to Little Cruisers Childcare Center,</h3>
                     </div>
                     <p class="about-three__content__text">
                         Where we blend learning with laughter to create memorable experiences for our children and families. Our goal is to cultivate a warm, inviting atmosphere that fosters a deep sense of belonging and provides a secure and stimulating environment for both play and education. We firmly believe that children learn best through play, whether it's energetic and lively or calm and immersive. Our approach focuses on self-directed play, which encourages children to explore their interests and curiosities, leading to natural learning and social development. By prioritizing play that is driven by internal motivation rather than external pressures, we aim to enrich children's early years and equip them with the skills and confidence needed for a successful life journey.
@@ -212,9 +211,7 @@
     <div class="container">
         <div class="sec-title text-center">
 
-            <h6 class="sec-title__tagline">Our Programs</h6>
-
-            <h3 class="sec-title__title">We meet kids at their level<br> regardless of their age</h3>
+            <h3 class="sec-title__title">Our Programs</h3>
         <div class="row gutter-y-30">
             <div class="col-xl-3 col-md-6">
                 <div class="program-three__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms' style='--accent-color: #F25334;'>
@@ -395,7 +392,7 @@
 
                     <div class="content">
                         <h3 class="text-start">Active Communication</h3>
-                        <p class="text-start"> We provide daily updates through HiMama. We ensure we
+                        <p class="text-start"> We provide daily updates through an app. We ensure we
                             are always available for parents to maintain a seamless
                             flow of information among parents, staff, and
                             management. We provide regular progress reports of

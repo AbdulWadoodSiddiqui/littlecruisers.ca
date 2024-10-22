@@ -12,7 +12,7 @@
     </div>
 </section>
 
-<section class="program-page">
+<section class="program-page pb-0">
     <div class="container">
         
         <div class="row gutter-y-30">
@@ -84,5 +84,11 @@
     </div>
 </section>
 
+<!-- Get in Touch Form Area -->
+<section class="contact-three pt-5">
+    <div class="container">
+        @include('get_in_touch_form')
+    </div>
+</section>
 
 @endsection

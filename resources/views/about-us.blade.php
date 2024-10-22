@@ -31,7 +31,7 @@
 
                         <h6 class="sec-title__tagline">About Us</h6><!-- /.sec-title__tagline -->
 
-                        <h3 class="sec-title__title">Welcome to Little Cruisers Daycare,</h3><!-- /.sec-title__title -->
+                        <h3 class="sec-title__title">Welcome to Little Cruisers Childcare Center,</h3><!-- /.sec-title__title -->
                     </div><!-- /.sec-title -->
                     <p class="about-three__content__text">
                         where we blend learning with laughter to create memorable experiences for our children and families. Our goal is to cultivate a warm, inviting atmosphere that fosters a deep sense of belonging and provides a secure and stimulating environment for both play and education. We firmly believe that children learn best through play, whether it's energetic and lively or calm and immersive. Our approach focuses on self-directed play, which encourages children to explore their interests and curiosities, leading to natural learning and social development. By prioritizing play that is driven by internal motivation rather than external pressures, we aim to enrich children's early years and equip them with the skills and confidence needed for a successful life journey.
@@ -53,7 +53,7 @@
                 <div class="video-two__content">
                     <h1 class="video-two__content__title">Our Vision</h1>
                     <p class="text-white" style="font: weight 900px;">
-                        Our vision is to nurture a vibrant environment where every child's dreams take flight. Through playful adventures, caring connections, and a galaxy of shared experiences, we're committed to illuminating the path towards a brilliant tomorrow for your little stars. Come, journey with us as we create a universe of growth, exploration, and endless wonder.
+                    Our vision is to create an inspiring environment where every child’s dream can thrive. Through playful adventures, caring connections, and a galaxy of shared experiences, we're committed to illuminating the path towards a brilliant tomorrow for your little stars. Come, journey with us as we create a universe of growth, exploration, and endless wonder.
                     </p>
                     <!-- <a href="about.html" class="kidearn-btn">
                         <span>Learn More</span>
@@ -94,7 +94,7 @@
 
                         <h3 class="sec-title__title">Everyday Adventures Await</h3><!-- /.sec-title__title -->
                     </div><!-- /.sec-title -->
-                    <p class="about-three__content__text">Embark on a journey of play and learning at The Kids Planet, where each day brings new experiences. From art to storytelling, outdoor adventures to music, our diverse activities nurture growth and spark excitement.</p>
+                    <p class="about-three__content__text">Embark on a journey of play and learning at The Little cruisers, where each day brings new experiences. From art to storytelling, outdoor adventures to music, our diverse activities nurture growth and spark excitement.</p>
                     <div class="who-we-are d-flex">
                         <ul class="who-we-are-list">
                             <li>
