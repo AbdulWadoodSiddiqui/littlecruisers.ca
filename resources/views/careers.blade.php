@@ -4,6 +4,17 @@
 <!-- End Page Banner -->
 <section class="quote-area pb-100 pt-100">
     <div class="container">
+            @if (session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            @if (session('error'))
+                <div class="alert alert-danger">
+                    {{ session('error') }}
+                </div>
+            @endif
         <div class="row">
             <div class="quote-item">
                 <div class="content text-center">

@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>The Kids Planet | Booking Tour Email</title>
+    <title>Little Cruisers | Booking Tour Email</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style type="text/css">
@@ -21,8 +21,8 @@
 
                 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse; border: 1px solid #cccccc;">
                     <tr>
-                        <td align="center" bgcolor="#e6e6e6" style="padding: 40px 0 30px 0;">
-                            <img src="https://thekidsplanet.ca/assets/img/tkp-1.svg" style="display: block; width: 200px" />
+                        <td align="center" bgcolor="#1B1A27" style="padding: 40px 0 30px 0;">
+                            <img src="https://littlecruisers.ca/assets/images/logo.svg" style="display: block; width: 200px" />
                         </td>
                     </tr>
                     <tr>
@@ -70,7 +70,7 @@
                                     <td style="color: black; font-family: Arial, sans-serif; font-size: 14px;">
                                         <p style="margin: 0; color: black">© <script>
                                                 document.write(new Date().getFullYear());
-                                            </script> The Kids Planet . All Rights Reserved. <a href="https://bmgroupinc.com" target="_blank" style="color: #456DE2"><b>BM_IT</b></a></p>
+                                            </script> Little Cruisers . All Rights Reserved. <a href="https://bmgroupinc.com" target="_blank" style="color: #456DE2"><b>BM_IT</b></a></p>
                                     </td>
                                 </tr>
                             </table>

@@ -70,6 +70,17 @@
             <div class="modal-body">
                 <button type="button" class="btn-close book-a-tour-btn-close" onclick="closeBookATourModel()" style="position:absolute;right:15px;"></button>
                 <div class="container">
+                    @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+
+                    @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
                     <div class="row">
                         <div class="quote-item" style="background:none;box-shadow:none;padding:0;">
                             <div class="content">
@@ -79,7 +90,7 @@
                     </div>
                     <div class="row" style="box-shadow: 0px 0px 10px 5px #202f84 !important;border-radius: 30px;">
                         <div class="col-lg-7 book-a-tour-content-col" style="padding:0">
-                            <div class="quote-item" style="border-radius:30px 0 0 30px;padding:50px 0 55px 0;">
+                            <div class="quote-item" style="border-radius:30px 0 0 30px;padding:50px 10px 55px 10px;">
                                 <form method="POST" action="{{ route('get_in_touch_email') }}">
                                     @csrf
                                     <div class="row">
