@@ -2,30 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Little Cruisers</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Little Cruisers - Daycare Center for Infants and Toddlers</title>
 
-    <!-- favicons Icons -->
-    <meta property="og:title" content="Little Cruisers - day care Center">
-    <meta property="og:description" content="Little Cruisers - At Little Cruisers, our Infant Care program is tailored for babies aged 12 to 18 months.">
+<!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Little Cruisers - Daycare Center for Infants and Toddlers">
+    <meta property="og:description" content="Little Cruisers provides a nurturing environment with programs tailored for children aged 12 to 18 months. Join us to foster early learning through self-directed play.">
     <meta property="og:url" content="https://littlecruisers.ca">
     <meta property="og:image" content="assets/images/favicon.svg">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
 
-    <!-- Additional Meta Tags -->
-    <meta name="description" content="Little Cruisers offers a nurturing environment for infants and toddlers, with tailored programs for children aged 12 to 18 months.">
-    <meta name="keywords" content="day care, Infant Care, Toddlers, Childcare, Little Cruisers">
-    <meta name="author" content="Your Name or Company Name">
-    <meta name="robots" content="index, follow">
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Little Cruisers - day care Center">
-    <meta name="twitter:description" content="Little Cruisers - Our Infant Care program is tailored for babies aged 12 to 18 months.">
+    <meta name="twitter:title" content="Little Cruisers - Daycare Center for Infants and Toddlers">
+    <meta name="twitter:description" content="Nurturing childcare for children aged 12-18 months. Discover Little Cruisers, where learning is fostered through self-directed play in a warm, secure environment.">
     <meta name="twitter:image" content="assets/images/favicon.svg">
 
-    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Little Cruisers is a welcoming childcare center providing tailored programs for children aged 12-18 months. Our self-directed play approach enriches early development in a secure environment.">
+    <meta name="keywords" content="daycare, infant care, toddler programs, Little Cruisers childcare, early childhood development, self-directed play">
+    <meta name="author" content="Little Cruisers Childcare Center">
+    <meta name="robots" content="index, follow">
 
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
