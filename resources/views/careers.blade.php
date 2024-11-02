@@ -23,39 +23,42 @@
                 <form method="post" action="{{ route('career_email') }}" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
-                        <input type="text" name="career_first_name" class="form-control" placeholder=" First Name" required>
+                        <input type="text" name="career_first_name" class="form-control" placeholder="First Name" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="career_last_name" class="form-control" placeholder=" Last Name" required>
+                        <input type="text" name="career_last_name" class="form-control" placeholder="Last Name" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="career_email_address" class="form-control" placeholder="Email Address" required>
+                        <input type="email" name="career_email_address" class="form-control" placeholder="Email Address" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="career_phone_number" class="form-control" placeholder="Phone Number" required>
+                        <input type="tel" name="career_phone_number" class="form-control" placeholder="Phone Number" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="career_desired_position" class="form-control" placeholder="Desired Position"required>
+                        <input type="text" name="career_desired_position" class="form-control" placeholder="Desired Position" required>
                     </div>
+
                     <div class="mb-4">
-                        <label for="file" class="form-label label-1">Attach resume</label>
-                        <input type="file" name="career_attach_resume" class="form-control" placeholder="Attach resume" required>
+                        <label for="file" class="form-label">Attach Resume</label>
+                        <input type="file" name="career_attach_resume" class="form-control" required>
                     </div>
+
                     <div class="mb-4">
-                        <label for="file" class="form-label label-1">Attach cover letter (optional)</label>
-                        <input type="file" name="career_cover_letter" class="form-control" placeholder="Attach resume">
+                        <label for="file" class="form-label">Attach Cover Letter (optional)</label>
+                        <input type="file" name="career_cover_letter" class="form-control">
                     </div>
+
                     <div class="form-group">
-                        <input type="text" name="career_addition_comments" class="form-control" placeholder="Additional Comments" required>
+                        <textarea name="career_addition_comments" class="form-control" placeholder="Additional Comments"></textarea>
                     </div>
-                    <button type="submit" class="default-btn">
-                        Submit Now
-                    </button>
+
+                    <button type="submit" class="default-btn">Submit Now</button>
                 </form>
+
             </div>
         </div>
     </div>

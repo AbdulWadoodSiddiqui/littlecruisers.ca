@@ -5,14 +5,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Little Cruisers</title>
+
     <!-- favicons Icons -->
-    <meta property="og:title" content="Little Cruisers - DayCare Center">
-    <meta property="og:description" content="Little Cruisers - At Little Cruisers, our Infant Care program is tailored for babies aged 12 to 18 months. ">
+    <meta property="og:title" content="Little Cruisers - day care Center">
+    <meta property="og:description" content="Little Cruisers - At Little Cruisers, our Infant Care program is tailored for babies aged 12 to 18 months.">
     <meta property="og:url" content="https://littlecruisers.ca">
     <meta property="og:image" content="assets/images/favicon.svg">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
+
+    <!-- Additional Meta Tags -->
+    <meta name="description" content="Little Cruisers offers a nurturing environment for infants and toddlers, with tailored programs for children aged 12 to 18 months.">
+    <meta name="keywords" content="day care, Infant Care, Toddlers, Childcare, Little Cruisers">
+    <meta name="author" content="Your Name or Company Name">
+    <meta name="robots" content="index, follow">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Little Cruisers - day care Center">
+    <meta name="twitter:description" content="Little Cruisers - Our Infant Care program is tailored for babies aged 12 to 18 months.">
+    <meta name="twitter:image" content="assets/images/favicon.svg">
+
     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -161,7 +174,7 @@
                             <li>
                                 <i class="fas fa-map-marker-alt"></i>
                                 <span>Address</span>
-                                405 121 Main Street Airdrie AB T4B0P8
+                                121 Main St S Unit 405, Airdrie, AB T4B 0P8, Canada
                             </li>
                             <li>
                                 <i class="far fa-clock"></i>
@@ -222,7 +235,7 @@
                     <div class="main-footer-two__bottom__inner">
                         <p class="main-footer-two__copyright">
                             &copy; Copyright <span class="dynamic-year"></span> Little Cruisers. All Rights Reserved. Developed by
-                            <a href="https://bmgroupinc.com" class="designed-by" style="font-weight:bold;" target="_blank">BM-Group</a>
+                            <a href="https://bmgroupinc.com" class="designed-by" style="font-weight:bold;" target="_blank">BM_IT</a>
                         </p>
 
                     </div>

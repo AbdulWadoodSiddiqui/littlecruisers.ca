@@ -238,7 +238,7 @@
                         <p style="color: black;">
                             Child care subsidy is available from the Albertan government for families who make less than
                             $180,000 combined. Please see the pictures on the right for a detailed breakdown to see how much
-                            subsidy you qualify for or visit the Alberta government website <a href="https://example.com">here</a> for any additional information. Feel free to contact us at
+                            subsidy you qualify for or visit the Alberta government website <a href=" https://www.alberta.ca/child-care-subsidy#subsidy">here</a> for any additional information. Feel free to contact us at
                             any time if you would like more information.
                         </p>
                     </div>

@@ -125,7 +125,7 @@
                         <i class="icon-location-fill contact-info-one__icon"></i>
                         <p class="contact-info-one__text">Visit Anytime</p>
                         <h3 class="contact-info-one__title">
-                            <a href="#">405 121 Main Street Airdrie AB <br>T4B0P8</a>
+                            <a href="#">121 Main St S Unit 405, Airdrie, AB T4B 0P8, Canada</a>
                         </h3><!-- /.contact-info-one__title -->
                     </div><!-- /.contact-info-one__item -->
                 </div><!-- /.col-md-12 -->

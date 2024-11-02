@@ -4924,6 +4924,14 @@ h6 {
 .main-menu {
     /* after third level no menu */
 }
+@media(min-width: 1498px) and (max-width: 1577px){
+    .main-menu .main-menu__list > li > a{
+        font-size: 16px !important;
+    }
+    .main-menu .main-menu__list > li + li{
+        margin-left: 18px !important;
+    }
+}
 @media(min-width: 1250px) and (max-width: 1300px){
     .main-menu .main-menu__list > li > a{
         font-size: 16px !important;
