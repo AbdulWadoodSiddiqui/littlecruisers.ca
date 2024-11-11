@@ -191,7 +191,7 @@
     </div><!-- /.program-two__item__icon -->
     <div class="program-two__item__content">
         <h3 class="program-two__item__title"><a href="#">Toddler</a></h3><!-- /.program-two__item__title -->
-        <div class="program-two__item__age">(19 - 3 year)</div><!-- /.program-two__item__age -->
+        <div class="program-two__item__age">(19 m - 3 year)</div><!-- /.program-two__item__age -->
         <p class="program-two__item__text">Full time fee: $1210</p><!-- /.program-two__item__text -->
         <!-- <a class="program-two__item__rm" href="programs-d-preschool.html"><span class="icon-right-arrow"></span></a> -->
     </div><!-- /.program-two__item__content -->
@@ -204,8 +204,8 @@
         <span class="icon-fun"></span>
     </div><!-- /.program-two__item__icon -->
     <div class="program-two__item__content">
-        <h3 class="program-two__item__title"><a href="#">PreSchool</a></h3><!-- /.program-two__item__title -->
-        <div class="program-two__item__age">(3-4 years)</div><!-- /.program-two__item__age -->
+        <h3 class="program-two__item__title"><a href="#">Preschool</a></h3><!-- /.program-two__item__title -->
+        <div class="program-two__item__age">(3 - 5 years)</div><!-- /.program-two__item__age -->
         <p class="program-two__item__text">Full time fee: $1140</p><!-- /.program-two__item__text -->
         <!-- <a class="program-two__item__rm" href="programs-d-kindergarten.html"><span class="icon-right-arrow"></span></a> -->
     </div><!-- /.program-two__item__content -->
@@ -219,8 +219,8 @@
     </div><!-- /.program-two__item__icon -->
     <div class="program-two__item__content">
         <h3 class="program-two__item__title"><a href="#">Kindergarten & OOSC</a></h3><!-- /.program-two__item__title -->
-        <div class="program-two__item__age">(4-5 years)</div><!-- /.program-two__item__age -->
-        <p class="program-two__item__text">Full time fee: $1140</p><!-- /.program-two__item__text -->
+        <div class="program-two__item__age">(5 - 6 years)</div><!-- /.program-two__item__age -->
+        <p class="program-two__item__text">Full time fee: $1120</p><!-- /.program-two__item__text -->
         <!-- <a class="program-two__item__rm" href="programs-d-flex-care.html"><span class="icon-right-arrow"></span></a> -->
     </div><!-- /.program-two__item__content -->
 </div><!-- /.program-two__item__one -->
